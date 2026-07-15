@@ -8,5 +8,3 @@ elif y > x and y > z:
     print(y)
 else:
     print(z)
-
-    
