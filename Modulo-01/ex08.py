@@ -12,7 +12,7 @@ match dia:
     case '5':
         print('Quinta')
     case '6':
-        print ('Sexta')
+        print('Sexta')
     case '7':
         print('Sabado')
     case _:

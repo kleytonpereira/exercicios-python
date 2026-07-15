@@ -1,7 +1,7 @@
 horas_trabalhas = float(input())
 valor_hora = float(input())
 
-excedido = float()
+excedido = 0.0
 
 if horas_trabalhas > 40:
     excedido = horas_trabalhas - 40
