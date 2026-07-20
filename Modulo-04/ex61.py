@@ -13,3 +13,4 @@ def fatorial_rec(n):
 
 
 assert fatorial(5) == 120, 'Calculado correto'
+assert fatorial_rec(5) == 120, 'Calculado correto'
