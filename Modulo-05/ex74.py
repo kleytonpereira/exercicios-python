@@ -13,7 +13,6 @@ with open(arquivo, 'w', newline='') as csvfile:
     spamwriter.writerow(['20-07', 'transporte', '50,00'])
     spamwriter.writerow(['21-07', 'comida', '5,79'])
 
-
 cont = dict()
 with open(arquivo, 'r', newline='') as csvfile:
         documento = csv.DictReader(csvfile, delimiter=',',
@@ -24,7 +23,3 @@ with open(arquivo, 'r', newline='') as csvfile:
                  cont[linha['categoria']] = float(linha['valor'].replace(',', '.'))
             else:
                  cont[linha['categoria']] += float(linha['valor'].replace(',', '.'))
-            
-
-        
-
