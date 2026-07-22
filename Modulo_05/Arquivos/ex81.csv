@@ -1,0 +1,11 @@
+Autor,Contagem,Texto
+Bruno,2,Encontrei um bug no login que impede o usuário de entrar
+Ana,1,Estamos com atraso na entrega do módulo de pagamentos
+Carla,2,O time está bloqueado esperando acesso ao servidor de staging
+Bruno,1,Corrigido o bug de renderização no dashboard principal
+Ana,1,Cliente relatou atraso na resposta do suporte técnico
+Carla,1,Estou bloqueado por falta de permissão no banco de dados
+Bruno,1,Novo bug crítico encontrado em produção
+Ana,1,Projeto sofrendo atraso por causa de mudança de escopo
+Bruno,1,Fiquei bloqueado tentando configurar o pipeline de CI/CD
+Ana,1,Identificado bug de performance na tela de relatórios
