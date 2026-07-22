@@ -1,0 +1,6 @@
+{
+  "id": 8,
+  "titulo": "Upload de arquivos grandes falha",
+  "descricao": "Arquivos acima de 50MB falham no upload, mas arquivos menores funcionam normalmente e há solução alternativa via link externo.",
+  "prioridade": "Critical"
+}

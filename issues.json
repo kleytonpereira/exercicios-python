@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "titulo": "Build da aplicação falhando no CI",
+    "descricao": "Pipeline de build quebra em todas as branches após merge da lib de autenticação, ninguém consegue gerar novo artefato.",
+    "prioridade": "Blocker"
+  },
+  {
+    "id": 2,
+    "titulo": "Botão de checkout não redireciona",
+    "descricao": "Ao clicar em 'Finalizar compra', a página trava e não redireciona para o gateway de pagamento em nenhum navegador.",
+    "prioridade": "Critical"
+  },
+  {
+    "id": 3,
+    "titulo": "Texto do rodapé desalinhado",
+    "descricao": "O texto de copyright no rodapé está desalinhado em telas menores que 768px.",
+    "prioridade": "Minor"
+  },
+  {
+    "id": 4,
+    "titulo": "Banco de dados não sobe em ambiente local",
+    "descricao": "Container do Postgres não inicializa após atualização do docker-compose, impedindo qualquer desenvolvimento local.",
+    "prioridade": "Blocker"
+  },
+  {
+    "id": 5,
+    "titulo": "Relatório mensal gerado com valores incorretos",
+    "descricao": "O módulo de relatórios financeiros está somando valores duplicados, mas o restante do sistema funciona normalmente.",
+    "prioridade": "Critical"
+  },
+  {
+    "id": 6,
+    "titulo": "Ícone de notificação sem contraste",
+    "descricao": "Ícone de sino fica quase invisível no tema escuro.",
+    "prioridade": "Low"
+  },
+  {
+    "id": 7,
+    "titulo": "API de login retornando 500",
+    "descricao": "Endpoint /auth/login está retornando erro 500 para todos os usuários, impossibilitando qualquer acesso ao sistema.",
+    "prioridade": "Blocker"
+  },
+  {
+    "id": 8,
+    "titulo": "Upload de arquivos grandes falha",
+    "descricao": "Arquivos acima de 50MB falham no upload, mas arquivos menores funcionam normalmente e há solução alternativa via link externo.",
+    "prioridade": "Critical"
+  },
+  {
+    "id": 9,
+    "titulo": "Placeholder do campo de busca em inglês",
+    "descricao": "O campo de busca exibe 'Search...' em vez do texto traduzido para português.",
+    "prioridade": "Minor"
+  },
+  {
+    "id": 10,
+    "titulo": "Servidor de produção não inicia após deploy",
+    "descricao": "Após o último deploy, o servidor principal não sobe devido a variável de ambiente ausente, deixando o sistema totalmente fora do ar.",
+    "prioridade": "Blocker"
+  }
+]

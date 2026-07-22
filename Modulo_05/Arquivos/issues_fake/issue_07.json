@@ -1,0 +1,6 @@
+{
+  "id": 7,
+  "titulo": "API de login retornando 500",
+  "descricao": "Endpoint /auth/login está retornando erro 500 para todos os usuários, impossibilitando qualquer acesso ao sistema.",
+  "prioridade": "Blocker"
+}

@@ -1,0 +1,6 @@
+{
+  "id": 9,
+  "titulo": "Placeholder do campo de busca em inglês",
+  "descricao": "O campo de busca exibe 'Search...' em vez do texto traduzido para português.",
+  "prioridade": "Minor"
+}

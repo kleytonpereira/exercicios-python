@@ -1,0 +1,6 @@
+{
+  "id": 1,
+  "titulo": "Build da aplicação falhando no CI",
+  "descricao": "Pipeline de build quebra em todas as branches após merge da lib de autenticação, ninguém consegue gerar novo artefato.",
+  "prioridade": "Blocker"
+}

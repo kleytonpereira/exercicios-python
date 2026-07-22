@@ -1,0 +1,6 @@
+{
+  "id": 3,
+  "titulo": "Texto do rodapé desalinhado",
+  "descricao": "O texto de copyright no rodapé está desalinhado em telas menores que 768px.",
+  "prioridade": "Minor"
+}

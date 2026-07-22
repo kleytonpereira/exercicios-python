@@ -1,0 +1,6 @@
+{
+  "id": 5,
+  "titulo": "Relatório mensal gerado com valores incorretos",
+  "descricao": "O módulo de relatórios financeiros está somando valores duplicados, mas o restante do sistema funciona normalmente.",
+  "prioridade": "Critical"
+}

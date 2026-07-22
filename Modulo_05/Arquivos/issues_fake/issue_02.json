@@ -1,0 +1,6 @@
+{
+  "id": 2,
+  "titulo": "Botão de checkout não redireciona",
+  "descricao": "Ao clicar em 'Finalizar compra', a página trava e não redireciona para o gateway de pagamento em nenhum navegador.",
+  "prioridade": "Critical"
+}

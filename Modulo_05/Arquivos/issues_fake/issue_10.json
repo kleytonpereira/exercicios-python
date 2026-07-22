@@ -1,0 +1,6 @@
+{
+  "id": 10,
+  "titulo": "Servidor de produção não inicia após deploy",
+  "descricao": "Após o último deploy, o servidor principal não sobe devido a variável de ambiente ausente, deixando o sistema totalmente fora do ar.",
+  "prioridade": "Blocker"
+}

@@ -1,0 +1,6 @@
+{
+  "id": 4,
+  "titulo": "Banco de dados não sobe em ambiente local",
+  "descricao": "Container do Postgres não inicializa após atualização do docker-compose, impedindo qualquer desenvolvimento local.",
+  "prioridade": "Blocker"
+}
