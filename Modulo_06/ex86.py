@@ -1,11 +1,14 @@
-class Mensagem():
-    def __init__(self, autor, texto, timestamp):
-        self.autor = autor
-        self.texto = texto
-        self.timestamp = timestamp
+from dataclasses import dataclass
 
-    def contem_risco(self, *palavras):
-        return any(x.lower() in self.texto.lower() for x in palavras)
+@dataclass
+class Mensagem:
+    autor : str
+    texto : str
+    timestamp : str
+
+    @property
+    def contem_risco(self) -> bool:
+        return any(x.lower() in self.texto.lower() for x in ['Bloqueio', 'Atraso', 'Bug', 'Impedimento', 'Perigo', 'Alinhamento'])
     
-
-assert Mensagem('Kleyton', 'Se continuar assim vai haver um bloqueio', '2026-07-22 15:30:45').contem_risco('Bloqueio', 'Risco', 'Atrasado'), 'Não esta realizando a identificação'
+    def __str__(self) -> str:
+        return f'----------------Mensagem----------------\nAutor: {self.autor}\nTexto da mensagem: {self.texto}\nMomento que foi gerado: {self.timestamp}'

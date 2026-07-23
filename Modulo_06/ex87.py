@@ -1,8 +1,16 @@
-class Risco():
-    def __init__(self, categoria, descricao, impacto):
-        self.descricao = descricao
-        self.categoria = categoria
-        self.impacto = int(impacto)
+from dataclasses import dataclass
+from Modulo_06.ex86 import Mensagem
 
-    def __str__(self):
-        return f'A categoria: {self.categoria}\nA descrição: {self.descricao}\nO impacto: {self.impacto}'
+@dataclass
+class Risco:
+    descricao : Mensagem
+    categoria : str
+    impacto : int
+
+    def __post_init__(self):
+        self.impacto = int(self.impacto)
+        if not self.descricao.contem_risco:
+           raise ValueError('Não é possivel adicionar') 
+
+    def __str__(self) -> str:
+        return f'----------------Risco----------------\nA categoria: {self.categoria}\nO impacto: {self.impacto}\n{self.descricao}'
